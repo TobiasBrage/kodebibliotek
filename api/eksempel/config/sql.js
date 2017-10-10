@@ -7,7 +7,7 @@ module.exports = {
             'user': 'root',
             'password': 'root',
             'port': 8889,
-            'database': 'hifi'
+            'database': 'database_eksempel'
         });
     }
 };

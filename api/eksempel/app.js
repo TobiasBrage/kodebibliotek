@@ -1,7 +1,7 @@
 const restify = require('restify');
 const corsmiddleware = require('restify-cors-middleware');
 const server = restify.createServer({
-    'name': 'hifi',
+    'name': 'api navn',
     'version': '1.0.0'
 });
 
