@@ -4,6 +4,8 @@
 
 Routes eksempler.
 
+POST
+
 ```javascript
 app.post('/edit/user', function (req, res) {
     let userId = req.body.id;
@@ -21,6 +23,8 @@ app.post('/edit/user', function (req, res) {
 });
 ```
 
+GET
+
 ```javascript
 app.get('/messages', function (req, res) {
     db.query(`select * from kontakt`, 
@@ -30,18 +34,13 @@ app.get('/messages', function (req, res) {
 });
 ```
 
+GET med værdi fra URL
+
 ```javascript
-app.get('/user', function (req, res) {
-    db.query(`select 
-    bruger.id as 'id',
-    bruger.navn as 'navn',
-    bruger.mail as 'mail',
-    bruger.brugernavn 'brugernavn',
-    bruger.kodeord as 'kodeord',
-    tilladelse.navn as 'tilladelse'
-    from bruger
-    inner join tilladelse on bruger.fk_tilladelse = tilladelse.id`, function (err, data) {
-        res.send(data);
+app.get('/add/category/:id', function (req, res) {
+    let categoryId = req.params.id.replace("id=", "");
+    db.query(`INSERT INTO kategori (id, navn) VALUES (null, '${categoryId}')`, function (err, data) {
+        res.send('categoryAdded');
     })
 });
 ```
