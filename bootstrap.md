@@ -104,3 +104,55 @@ For at sikre at elementerne på siden opfører sig efter hensigten skal der ofte
 |`.hidden-phone`|Skjult|Synlig|Synlig|
 |`.hidden-tablet`|Synlig|Skjult|Synlig|
 |`.hidden-desktop`|Synlig|Synlig|Skjult|
+
+## Knapper
+
+Bootstrap har mange indbygget knapper, her er nogle få af dem.
+
+* `.btn`
+
+    Standard knap.
+
+* `.btn-default`
+
+    Standard knap med mere styling.
+
+* `.btn-primary`
+
+    Blå knap.
+
+* `.btn-success`
+
+    Grøn knap.
+
+* `.btn-info`
+
+    Lyseblå knap.
+
+* `.btn-warning`
+
+    Gul knap.
+
+* `.btn-danger`
+
+    Rød knap.
+
+* `.btn-link`
+
+    Standard link.
+
+
+Gruppe knapper.
+
+* `.btn-group`
+
+    Har en prædefineret bredde.
+
+* `.btn-group-justified`
+
+    Fylder hele bredden.
+
+
+![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/knapper.jpg?raw=true)
+
+![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/gruppeknapper.jpg?raw=true)
