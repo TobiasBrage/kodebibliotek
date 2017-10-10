@@ -2,6 +2,28 @@
 
 I `head` tagget skal `<meta name="viewport" content="width=device-width, initial-scale=1.0">` indsættes for at skaleringen er optimal på mindre enheder.
 
+## Navigation
+
+Bootstrap har flere variationer af navigationer, her er et eksempel på en standard navigation.
+
+```HTML
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+```
+
+
+
 ## Container
 
 Der er to slags `container`.
@@ -40,7 +62,7 @@ De bruges eksempelvis på følgende måde: `.col-sm-4`, dette element vil fylde 
 
 Hvis et element skal skubbes frem bruges `.offeset` klassen, eksempelvis vil `.offset4` skubbe elementet fire kolonner frem.
 
-Hvis et element derimod skal hives 
+Hvis et element derimod skal hives tilbage bruges `.pull` klassen, eksempelvis vil `.pull4` hive elementet fire kolonner tilbage.
 
 | Definition        | Skærm bredde|
 | :----- |:-----|
