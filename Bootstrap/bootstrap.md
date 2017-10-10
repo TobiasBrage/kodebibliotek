@@ -22,11 +22,11 @@ Bootstrap har flere variationer af navigationer, her er et eksempel på en stand
 </nav>
 ```
 
-![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/navbar.jpg?raw=true)
+![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/Bootstrap/billeder/navbar.jpg?raw=true)
 
 Hvis navigationer derimod skal være mørk bruges `navbar-inverse` klassen.
 
-![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/navbarinverse.jpg?raw=true)
+![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/Bootstrap/billeder/navbarinverse.jpg?raw=true)
 
 Som standard forsvinder navigationen i takt med at man ruller længere ned på siden, dette kan løses ved at sætte navigationen i toppen permanent med `navbar-fixed-top` klassen.
 
@@ -221,9 +221,7 @@ Gruppe knapper.
     Fylder hele bredden.
 
 
-![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/knapper.jpg?raw=true)
-
-![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/billeder/gruppeknapper.jpg?raw=true)
+![alt text](https://github.com/TobiasBrage/kodebibliotek/blob/master/Bootstrap/billeder/knapper.jpg?raw=true)
 
 Flere detaljer på [W3School - Bootstrap Buttons](https://www.w3schools.com/bootstrap/bootstrap_buttons.asp).
 
